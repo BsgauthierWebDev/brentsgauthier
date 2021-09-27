@@ -1,0 +1,27 @@
+.Landing {
+    background-size: cover;
+    width: 100%;
+}
+
+.intro {
+    width: 85%;
+    margin: auto;
+    color: #aeb6c2;
+    text-align: center;
+    margin-top: 35%;
+}
+
+.intro h1 {
+    font-size: 9vw;
+}
+
+.intro h3 {
+    font-size: 5vw;
+}
+
+.intro hr {
+    width: 75%;
+    background-color: black;
+    border: none;
+    height: 5px;
+}
