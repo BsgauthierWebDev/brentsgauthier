@@ -11,9 +11,8 @@ export default function Landing() {
                 <hr></hr>
                 <h3>Full-Stack Web Developer & Software Engineer</h3>
                 <hr></hr>
-                <p>Hello, my name is Brent Gauthier, and I'm a software engineer in the Baltimore area.</p>
-                <p>I started out working in Operations and Logistcs in a few different positions before starting down the road to software development. Along the way I've developed a unique skill set with experience in several areas of the workforce.</p>
-                <p>I'm excited to help build a better world with technology.</p>
+                <h4>Hello, my name is Brent Gauthier, and I'm a software engineer in the Baltimore area.</h4>
+                <h4>I'm excited to help build a better world with technology.</h4>
             </div>
             <div className = 'contact__links'>
                 <div className = 'contact__links__linkedin'>

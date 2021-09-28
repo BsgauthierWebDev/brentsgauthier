@@ -8,7 +8,7 @@
     margin: auto;
     color: #aeb6c2;
     text-align: center;
-    margin-top: 35%;
+    margin-top: 10%;
 }
 
 .intro h1 {
@@ -16,7 +16,7 @@
 }
 
 .intro h3 {
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 .intro hr {
