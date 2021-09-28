@@ -1,0 +1,16 @@
+body {
+    height: 100%;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    background-color: #021f4a;
+}
+
+.App {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    min-height: 100hv;
+    padding-bottom: 30px;
+}

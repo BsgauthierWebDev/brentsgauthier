@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Route} from 'react-router-dom';
+import About from './components/About/About';
 import Landing from './components/Landing/Landing';
+import Nav from './components/Nav/Nav';
 import './App.css';
 
 export default class App extends Component {
@@ -12,6 +14,10 @@ export default class App extends Component {
           path = '/'
           component = {Landing}
         />
+        <Route
+          path = '/about'
+          component = {About}
+        />
       </>
     )
   }
@@ -19,6 +25,7 @@ export default class App extends Component {
   render() {
     return (
       <div className = 'App'>
+        <Nav />
         <main className = 'app-main'>
           {this.renderMainRoutes()}
         </main>
