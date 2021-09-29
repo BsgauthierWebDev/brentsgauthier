@@ -30,6 +30,10 @@ const NavMenu = props => {
                 onClick = {() => pushToRoute('/about')}>
                 About
             </div>
+            <div className = {setClassNames(3)}
+                onClick = {() => pushToRoute('/projects')}>
+                Projects
+            </div>
         </div>
     );
 }

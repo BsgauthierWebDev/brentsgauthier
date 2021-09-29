@@ -4,6 +4,7 @@ import About from './components/About/About';
 import Landing from './components/Landing/Landing';
 import Nav from './components/Nav/Nav';
 import NavMenu from './components/NavMenu/NavMenu';
+import Projects from './components/Projects/Projects';
 import './App.css';
 
 export default class App extends Component {
@@ -18,6 +19,10 @@ export default class App extends Component {
         <Route
           path = '/about'
           component = {About}
+        />
+        <Route
+          path = '/projects'
+          component = {Projects}
         />
       </>
     )
