@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Route} from 'react-router-dom';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 import Landing from './components/Landing/Landing';
 import Nav from './components/Nav/Nav';
 import NavMenu from './components/NavMenu/NavMenu';
@@ -23,6 +24,10 @@ export default class App extends Component {
         <Route
           path = '/projects'
           component = {Projects}
+        />
+        <Route
+          path = '/contact'
+          component = {Contact}
         />
       </>
     )

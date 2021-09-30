@@ -13,9 +13,9 @@ export default function Projects() {
                 {ProjectsStore.map((item, index) => {
                     return (
                         <div className = 'projects__item' key = {index}>
-                            {/* <div className = 'projects__pic'>
+                            <div className = 'projects__pic'>
                                 <img src = {Object.values(item.img)} alt = 'logo' />
-                            </div> */}
+                            </div>
                             <div className = 'projects__text'>
                                 <h2 className = 'projects__title'>{item.name}</h2>
                                 <p className = 'projects__summary'>{item.summary}</p>
