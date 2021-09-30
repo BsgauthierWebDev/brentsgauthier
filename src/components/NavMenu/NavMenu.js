@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import {withRouter} from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faBars} from '@fortawesome/fontawesome-free'
 import './NavMenu.css';
 
 const NavMenu = props => {
