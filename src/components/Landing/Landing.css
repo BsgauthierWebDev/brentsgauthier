@@ -1,6 +1,7 @@
 .Landing {
     background-size: cover;
     width: 100%;
+    margin-top: 5%;
 }
 
 .intro {
@@ -8,7 +9,7 @@
     margin: auto;
     color: #aeb6c2;
     text-align: center;
-    margin-top: 10%;
+    /* margin-top: 5%; */
 }
 
 .intro h1 {

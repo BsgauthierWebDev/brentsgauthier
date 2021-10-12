@@ -14,3 +14,7 @@ body {
     min-height: 100hv;
     padding-bottom: 30px;
 }
+
+a {
+    color: #aeb6c2;
+}

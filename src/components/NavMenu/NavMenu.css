@@ -7,8 +7,8 @@
     position: absolute;
     top: 0;
     width: 5.5em;
-    background-color: #301a4b;
-    box-shadow: 1px 2px 2px #301a4b;
+    background-color: #aeb6c2;
+    box-shadow: 1px 2px 2px #aeb6c2;
     padding: 0.2em;
     border-radius: 1em;
     display: flex;
@@ -30,18 +30,18 @@
 
 .open-1{
     top: 1.8em;
-    background-color: #9b5de5;
+    background-color: #aeb6c2;
 }
 .open-2{
     top: 3.6em;
-    background-color: #f15bb5;
+    background-color: #aeb6c2;
 }
 .open-3{
     top: 5.4em;
-    background-color: #00BBF9;
+    background-color: #aeb6c2;
 }
 
 .open-4 {
     top: 7.2em;
-    background-color: #00BBF9;
+    background-color: #aeb6c2;
 }
